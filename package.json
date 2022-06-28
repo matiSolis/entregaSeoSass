@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "cloudinary": "^1.30.0",
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
   },
@@ -21,6 +22,5 @@
     "url": "https://github.com/matiSolis/toroWeb_solisMatias/issues"
   },
   "homepage": "https://github.com/matiSolis/toroWeb_solisMatias#readme",
-  "devDependencies": {},
   "description": ""
 }

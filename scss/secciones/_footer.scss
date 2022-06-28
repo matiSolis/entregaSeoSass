@@ -6,6 +6,8 @@
     span{
         margin: 10px;
         padding: 5px;
+        color: $colorFont;
+        font-family: $tipoTitulos;
     }
     &__form{
         display: flex;

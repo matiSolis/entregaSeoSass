@@ -14,12 +14,10 @@
         align-items: center;
     }
     &__subtitulo {
-        text-align: center;
-        margin: 20px;
-        padding: 10px;
+        @extend %estiloSubtitulo;
     }
     &__texto{
-            @extend %estiloParrafo
+        @extend %estiloParrafo;
     }
     &__div{
         display: flex;
