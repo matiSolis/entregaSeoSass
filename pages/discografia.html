@@ -8,11 +8,11 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/300fb5c1b5.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="https://res.cloudinary.com/matisolis/image/upload/v1656385607/favicon_peozmp.png">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>TORO | Discografia</title>
 </head>
 
-<body class="bodyStile">
+<body class="body">
     <header class="header" id="cabecera">
         <nav class="navbar navbar-expand-lg" style="background-color: #2d3033;">
             <div class="container-fluid justify-content-center">
@@ -65,7 +65,7 @@
         </nav>
     </header>
     <main class="main">
-        <div class="divDisco">
+        <div class="main__disco">
             <div class="card" style="width: 18rem;">
                 <img src="https://res.cloudinary.com/matisolis/image/upload/v1656385609/toro_artwork_2mx2m_qfmouh.png" class="card-img-top" alt="tapa del disco creo para no ver">
                 <div class="card-body">
@@ -87,18 +87,18 @@
                 </div>
             </div>
         </div>
-        <h3 class="subtitulo">ESCUCHA NUESTRO DISCO</h3>
-        <div class="secciones">
+        <h3 class="main__subtitulo">ESCUCHA NUESTRO DISCO</h3>
+        <div class="main__secciones">
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5tlVUpuSRJlxZgeP0108zO?utm_source=generator&theme=0" width="70%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         </div>
         <!-- Boton subir -->
-        <section class="volver">
+        <section class="main__btn">
             <a href="#cabecera">VOLVER</a>
         </section>
     </main>
     <footer class="footer">
         <form action="#" method="GET">
-            <div class="formStyle">
+            <div class="footer__form">
                 <!-- Aca no se si va parrafo o un h4 por ejemplo, consultar (resuelto con <span>)-->
                 <span>Contacto</span>
                 <!-- no puedo separar el span del input sin poner br, br es la unica solucion que encontre (resuelto con flexbox) -->
@@ -106,14 +106,14 @@
                 <input type="text" style="text-align: center; border-radius: 10px;" placeholder="E-mail">
                 <input type="submit" value="Enviar">
             </div>
-            <div class="formStyle">
+            <div class="footer__form">
                 <span>Suscribite!</span>
                 <!-- no puedo separar el span del input sin poner br, br es la unica solucion que encontre (resuelto con flexbox) -->
                 <input type="text" style="text-align: center; border-radius: 10px;" placeholder="E-mail">
                 <input type="submit" style="text-align: center;" value="Suscribirme">
             </div>
         </form>
-        <ul>
+        <ul class="footer__ul">
             <li>
                 <a href="https://www.facebook.com/ToroRockReDuro" target="_blank">
                     <!-- imagen logo -->

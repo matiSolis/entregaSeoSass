@@ -1,5 +1,10 @@
 .body{
     display: flex;
     flex-direction: column;
-    background-color: $colorFondo;
+    //tuve que poner el back asi aca pq no me lo tomaba en _colors
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(50,48,48,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(50,48,48,1) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(50,48,48,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#323030",GradientType=1);
 }

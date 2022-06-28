@@ -8,11 +8,11 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/300fb5c1b5.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="https://res.cloudinary.com/matisolis/image/upload/v1656385607/favicon_peozmp.png">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>TORO | Biografia</title>
 </head>
 
-<body class="bodyStile">
+<body class="body">
     <header class="header" id="cabecera">
         <nav class="navbar navbar-expand-lg" style="background-color: #2d3033;">
             <div class="container-fluid justify-content-center">
@@ -64,15 +64,15 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="main">
         <!-- imagen portada -->
-        <div class="fotoPortada">
-            <img src="https://res.cloudinary.com/matisolis/image/upload/v1656385606/banda_xphbi9.jpg" alt="integrantes de la banda">
+        <div class="main__imgPortada">
+            <img src="https://res.cloudinary.com/matisolis/image/upload/v1656391421/banda_xnfu9x.jpg" alt="integrantes de la banda">
         </div>
         <!-- historia banda -->
         <section class="toroHistoria">
-            <h2 class="subtitulo">TORO HISTORIA</h2>
-            <p class="textoLargo">Toro es una banda de rock pesado formada en el año 2016. Sus integrantes son Pancho en
+            <h2 class="main__subtitulo">TORO HISTORIA</h2>
+            <p class="main__texto">Toro es una banda de rock pesado formada en el año 2016. Sus integrantes son Pancho en
                 la voz, Pate Haagen en guitarra, Fer Heis en bajo y Pipa en batería.
                 A fines de 2017 sacaron su primer EP con 5 temas propios llamado "Otro orto roto" (anagrama de Toro). En
                 marzo de 2021 lanzaron su primer LP titulado "Creo para no ver", con 9 temas de su autoría, el cual se
@@ -85,7 +85,7 @@
         <!-- bio integrantes -->
         <div class="secciones">
             <section>
-                <h2 class="subtitulo">FORMACION</h2>
+                <h2 class="main__subtitulo">FORMACION</h2>
                 <div class="cards">
                     <div class="card mb-3" style="max-width: 940px; display: flex; align-items: center; border: none; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;" id="pancho">
                         <img src="https://res.cloudinary.com/matisolis/image/upload/v1656385618/voz_khdn9j.jpg" class="card-img-top" style="max-width: 400px; display: inline; margin-top: 25px;" alt="foto de pancho cantando, vocalista de la banda">
@@ -125,13 +125,13 @@
             </section>
         </div>
         <!-- Boton subir -->
-        <section class="volver">
+        <section class="main__btn">
         <a href="#cabecera">VOLVER</a>
         </section>
     </main>
     <footer class="footer">
         <form action="#" method="GET">
-            <div class="formStyle">
+            <div class="footer__form">
                 <!-- Aca no se si va parrafo o un h4 por ejemplo, consultar (resuelto con <span>)-->
                 <span>Contacto</span>
                 <!-- no puedo separar el span del input sin poner br, br es la unica solucion que encontre (resuelto con flexbox) -->
@@ -139,14 +139,14 @@
                 <input type="text" style="text-align: center; border-radius: 10px;" placeholder="E-mail">
                 <input type="submit" value="Enviar">
             </div>
-            <div class="formStyle">
+            <div class="footer__form">
                 <span>Suscribite!</span>
                 <!-- no puedo separar el span del input sin poner br, br es la unica solucion que encontre (resuelto con flexbox) -->
                 <input type="text" style="text-align: center; border-radius: 10px;" placeholder="E-mail">
                 <input type="submit" style="text-align: center;" value="Suscribirme">
             </div>
         </form>
-        <ul>
+        <ul class="footer__ul">
             <li>
                 <a href="https://www.facebook.com/ToroRockReDuro" target="_blank">
                     <!-- imagen logo -->

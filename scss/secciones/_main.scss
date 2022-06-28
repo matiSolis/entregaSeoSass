@@ -4,7 +4,7 @@
         max-width: 100%;
         min-width: 320px;
         margin: auto;
-        img{
+        img {
             width: 100%;
         }
     }
@@ -16,29 +16,38 @@
     &__subtitulo {
         @extend %estiloSubtitulo;
     }
-    &__texto{
+    &__texto {
         @extend %estiloParrafo;
     }
-    &__div{
+    &__disco {
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 50px;
+        justify-content: space-evenly;
+        align-content: space-around;
+        flex-direction: row-reverse;
+        align-items: stretch;
+    }
+    &__div {
         display: flex;
         border-style: inherit;
         flex-direction: column;
         align-items: center;
     }
-    &__video{
+    &__video {
         margin: 20px;
         position: relative;
         overflow: hidden;
     }
-    &__btn{
+    &__btn {
         display: grid;
         margin: 50px;
         padding: 10px;
         justify-content: center;
-        a{
-        text-decoration: none;
-        color: antiquewhite;        
-            &:hover{
+        a {
+            text-decoration: none;
+            color: antiquewhite;
+            &:hover {
                 font-weight: 1000;
                 color: $colorBtn;
             }
