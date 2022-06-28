@@ -28,6 +28,18 @@
   background: linear-gradient(0deg, black 0%, #323030 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#323030",GradientType=1); }
 
+.main__bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.main__card {
+  background: black;
+  background: -moz-linear-gradient(0deg, black 0%, #323030 100%);
+  background: -webkit-linear-gradient(0deg, black 0%, #323030 100%);
+  background: linear-gradient(0deg, black 0%, #323030 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#323030",GradientType=1); }
+
 .main__carousel {
   margin: 50px;
   display: flex;
