@@ -28,6 +28,11 @@
   background: linear-gradient(0deg, black 0%, #323030 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#323030",GradientType=1); }
 
+.main__carousel {
+  margin: 50px;
+  display: flex;
+  justify-content: center; }
+
 .main__imgPortada {
   display: grid;
   max-width: 100%;
@@ -60,6 +65,18 @@
   margin: 20px;
   position: relative;
   overflow: hidden; }
+
+.main__portadaShows {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px; }
+
+.main__showStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px; }
 
 .main__btn {
   display: grid;

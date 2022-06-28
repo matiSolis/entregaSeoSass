@@ -1,4 +1,9 @@
 .main {
+    &__carousel {
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+    }
     &__imgPortada {
         display: grid;
         max-width: 100%;
@@ -38,6 +43,18 @@
         margin: 20px;
         position: relative;
         overflow: hidden;
+    }
+    &__portadaShows{
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            border-radius: 10px;
+    }
+    &__showStyle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
     }
     &__btn {
         display: grid;
