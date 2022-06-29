@@ -16,8 +16,11 @@
   font-family: "Roboto Slab", serif;
   color: white; }
 
-.header {
-  grid-area: header; }
+.header__btn a {
+  color: white !important; }
+  .header__btn a:hover {
+    background-color: #d3cf93;
+    border-radius: 8px; }
 
 .body {
   display: flex;
@@ -34,11 +37,23 @@
   align-items: center; }
 
 .main__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
   background: black;
   background: -moz-linear-gradient(0deg, black 0%, #323030 100%);
   background: -webkit-linear-gradient(0deg, black 0%, #323030 100%);
   background: linear-gradient(0deg, black 0%, #323030 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#323030",GradientType=1); }
+
+.main__cardText {
+  margin: 20px;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: white; }
 
 .main__carousel {
   margin: 50px;
